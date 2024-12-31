@@ -2,9 +2,9 @@
 
 Submitted by: Tiffany Fu
 
-Remix is an app that changes background colors at the click of a button. 
+Remix is an app that allow users to make custom name tags changing background colors at the click of a button. 
 
-Time spent: 2 hours spent in total
+Time spent: 3 hours spent in total
 
 ## Required Features
 
@@ -15,7 +15,7 @@ The following **required** functionality is completed:
  
 ## Video Walkthrough
 
-[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
+[Loom](https://www.loom.com/share/b59c8f38459a432b914b837208a1925b)
 
 ## App Brainstorming (Step 4)
 #### App 1: Spotify
