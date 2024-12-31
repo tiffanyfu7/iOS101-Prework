@@ -12,6 +12,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    @IBOutlet weak var StackView: UIStackView!
     
     @IBAction func changeBackgroundColor(_ sender: UIButton) {
         func changeColor() -> UIColor {
@@ -22,6 +23,6 @@ class ViewController: UIViewController {
         }
         
         let randomColor = changeColor()
-        view.backgroundColor = randomColor
+        StackView.backgroundColor = randomColor
     }
 }
