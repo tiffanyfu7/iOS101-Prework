@@ -14,8 +14,11 @@ The following **required** functionality is completed:
 - [x] Tapping the button changes the screen color to a random color
  
 ## Video Walkthrough
-
-[Loom](https://www.loom.com/share/b59c8f38459a432b914b837208a1925b)
+<div>
+    <a href="https://www.loom.com/share/b59c8f38459a432b914b837208a1925b">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/b59c8f38459a432b914b837208a1925b-d06c16de42f9e652-full-play.gif">
+    </a>
+  </div>
 
 ## App Brainstorming (Step 4)
 #### App 1: Spotify
