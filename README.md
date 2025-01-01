@@ -19,9 +19,18 @@ The following **required** functionality is completed:
 
 ## App Brainstorming (Step 4)
 #### App 1: Spotify
+- Friends Activity tab
+- Making playlists with custom covers
 #### App 2: Pinterest
-#### App 3: Apple Photos
-
+- Mood-board-esque gallery feed
+- Save posts to albums
+#### App 3: Apple Messages
+- Reacting to messages
+- Audio messages
+- Message Effects
+#### App Idea
+An app to track books that you are reading or would like to read. You can also follow freinds and see what books they are reading or their reviews on books that they have read. The app can also give recommendations for new books and give stats on books you have read. A simpler and more social version of GoodReads. 
+  
 ## Notes
 At first, the `IBAction` from the `UIButton` was implemented not as a function.
 Then when the `changeColor` code was added, the background only changed on opening the app rather than responsive to the button.
