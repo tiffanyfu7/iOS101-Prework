@@ -4,7 +4,7 @@ Submitted by: Tiffany Fu
 
 Remix is an app that allow users to make custom name tags changing background colors at the click of a button. 
 
-Time spent: 3 hours spent in total
+Time spent: 4 hours spent in total
 
 ## Required Features
 
