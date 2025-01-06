@@ -6,38 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		A44202422D237EAE005DAE25 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = A44202392D237EAE005DAE25 /* girl.png */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		A41C14A02D23148700A8DB7F /* iOS101-Prework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS101-Prework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A44202392D237EAE005DAE25 /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
+		A4E2F4532D2B807E003E3FAC /* BookNook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookNook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		A41C14B22D23148900A8DB7F /* Exceptions for "iOS101-Prework" folder in "iOS101-Prework" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = A41C149F2D23148700A8DB7F /* iOS101-Prework */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A41C14A22D23148700A8DB7F /* iOS101-Prework */ = {
+		A4E2F4552D2B807E003E3FAC /* BookNook */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				A41C14B22D23148900A8DB7F /* Exceptions for "iOS101-Prework" folder in "iOS101-Prework" target */,
-			);
-			path = "iOS101-Prework";
+			path = BookNook;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A41C149D2D23148700A8DB7F /* Frameworks */ = {
+		A4E2F4502D2B807E003E3FAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,19 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A41C14972D23148700A8DB7F = {
+		A4E2F44A2D2B807E003E3FAC = {
 			isa = PBXGroup;
 			children = (
-				A44202392D237EAE005DAE25 /* girl.png */,
-				A41C14A22D23148700A8DB7F /* iOS101-Prework */,
-				A41C14A12D23148700A8DB7F /* Products */,
+				A4E2F4552D2B807E003E3FAC /* BookNook */,
+				A4E2F4542D2B807E003E3FAC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A41C14A12D23148700A8DB7F /* Products */ = {
+		A4E2F4542D2B807E003E3FAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A41C14A02D23148700A8DB7F /* iOS101-Prework.app */,
+				A4E2F4532D2B807E003E3FAC /* BookNook.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,75 +48,74 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A41C149F2D23148700A8DB7F /* iOS101-Prework */ = {
+		A4E2F4522D2B807E003E3FAC /* BookNook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A41C14B32D23148900A8DB7F /* Build configuration list for PBXNativeTarget "iOS101-Prework" */;
+			buildConfigurationList = A4E2F4612D2B807F003E3FAC /* Build configuration list for PBXNativeTarget "BookNook" */;
 			buildPhases = (
-				A41C149C2D23148700A8DB7F /* Sources */,
-				A41C149D2D23148700A8DB7F /* Frameworks */,
-				A41C149E2D23148700A8DB7F /* Resources */,
+				A4E2F44F2D2B807E003E3FAC /* Sources */,
+				A4E2F4502D2B807E003E3FAC /* Frameworks */,
+				A4E2F4512D2B807E003E3FAC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A41C14A22D23148700A8DB7F /* iOS101-Prework */,
+				A4E2F4552D2B807E003E3FAC /* BookNook */,
 			);
-			name = "iOS101-Prework";
+			name = BookNook;
 			packageProductDependencies = (
 			);
-			productName = "iOS101-Prework";
-			productReference = A41C14A02D23148700A8DB7F /* iOS101-Prework.app */;
+			productName = BookNook;
+			productReference = A4E2F4532D2B807E003E3FAC /* BookNook.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A41C14982D23148700A8DB7F /* Project object */ = {
+		A4E2F44B2D2B807E003E3FAC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					A41C149F2D23148700A8DB7F = {
+					A4E2F4522D2B807E003E3FAC = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = A41C149B2D23148700A8DB7F /* Build configuration list for PBXProject "iOS101-Prework" */;
+			buildConfigurationList = A4E2F44E2D2B807E003E3FAC /* Build configuration list for PBXProject "BookNook" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = A41C14972D23148700A8DB7F;
+			mainGroup = A4E2F44A2D2B807E003E3FAC;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = A41C14A12D23148700A8DB7F /* Products */;
+			productRefGroup = A4E2F4542D2B807E003E3FAC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A41C149F2D23148700A8DB7F /* iOS101-Prework */,
+				A4E2F4522D2B807E003E3FAC /* BookNook */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A41C149E2D23148700A8DB7F /* Resources */ = {
+		A4E2F4512D2B807E003E3FAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A44202422D237EAE005DAE25 /* girl.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A41C149C2D23148700A8DB7F /* Sources */ = {
+		A4E2F44F2D2B807E003E3FAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -145,61 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A41C14B42D23148900A8DB7F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS101-Prework/Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Codepath.iOS101-Prework";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A41C14B52D23148900A8DB7F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS101-Prework/Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Codepath.iOS101-Prework";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		A41C14B62D23148900A8DB7F /* Debug */ = {
+		A4E2F45F2D2B807F003E3FAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		A41C14B72D23148900A8DB7F /* Release */ = {
+		A4E2F4602D2B807F003E3FAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -318,28 +244,84 @@
 			};
 			name = Release;
 		};
+		A4E2F4622D2B807F003E3FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BookNook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tiffanyfu.BookNook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4E2F4632D2B807F003E3FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BookNook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tiffanyfu.BookNook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A41C149B2D23148700A8DB7F /* Build configuration list for PBXProject "iOS101-Prework" */ = {
+		A4E2F44E2D2B807E003E3FAC /* Build configuration list for PBXProject "BookNook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A41C14B62D23148900A8DB7F /* Debug */,
-				A41C14B72D23148900A8DB7F /* Release */,
+				A4E2F45F2D2B807F003E3FAC /* Debug */,
+				A4E2F4602D2B807F003E3FAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A41C14B32D23148900A8DB7F /* Build configuration list for PBXNativeTarget "iOS101-Prework" */ = {
+		A4E2F4612D2B807F003E3FAC /* Build configuration list for PBXNativeTarget "BookNook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A41C14B42D23148900A8DB7F /* Debug */,
-				A41C14B52D23148900A8DB7F /* Release */,
+				A4E2F4622D2B807F003E3FAC /* Debug */,
+				A4E2F4632D2B807F003E3FAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A41C14982D23148700A8DB7F /* Project object */;
+	rootObject = A4E2F44B2D2B807E003E3FAC /* Project object */;
 }
