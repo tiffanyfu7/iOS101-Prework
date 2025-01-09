@@ -1,1 +1,17 @@
-GoogleService-Info.plist
+# Ignore Firebase configuration files
+BookNook/BookNook/GoogleService-Info.plist
+
+# Ignore all plist files
+*.plist
+
+# macOS-specific ignores
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode-specific ignores
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+DerivedData/
+build/
