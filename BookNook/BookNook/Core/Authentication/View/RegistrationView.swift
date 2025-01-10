@@ -68,7 +68,7 @@ struct RegistrationView: View {
             Button{
                 dismiss() 
             } label: {
-                Text("Sign In")
+                Text("Back to Sign In")
             }
         }
     }
