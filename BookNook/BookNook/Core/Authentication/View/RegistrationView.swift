@@ -25,7 +25,7 @@ struct RegistrationView: View {
                     text: $fullname,
                     title: "Full Name",
                     placeholder: "John Doe",
-                    isSecureField: true
+                    isSecureField: false
                 ).autocapitalization(.none)
                 InputView(
                     text: $email,
@@ -38,12 +38,27 @@ struct RegistrationView: View {
                     placeholder: "Enter Password",
                     isSecureField: true
                 ).autocapitalization(.none)
-                InputView(
-                    text: $confirmPassword,
-                    title: "Confirm Password",
-                    placeholder: "Re-enter Password",
-                    isSecureField: true
-                ).autocapitalization(.none)
+                ZStack (alignment: .trailing){
+                    InputView(
+                        text: $confirmPassword,
+                        title: "Confirm Password",
+                        placeholder: "Re-enter Password",
+                        isSecureField: true
+                    ).autocapitalization(.none)
+                    
+                    if !password.isEmpty && !password.isEmpty {
+                        if password == confirmPassword {
+                            Image(systemName: "checkmark.circle.fill") .imageScale(.large)
+                                .fontWeight(.bold)
+                                .foregroundColor(Color(.systemGreen))
+                        } else {
+                            Image(systemName: "xmark.circle.fill") .imageScale(.large)
+                                .fontWeight(.bold)
+                                .foregroundColor(Color(.systemRed))
+                        }
+                    }
+                            
+                }
             }
             .padding(.horizontal)
             .padding(.top, 12)
@@ -62,6 +77,8 @@ struct RegistrationView: View {
             .background(Color(.systemBlue))
             .cornerRadius(10)
             .padding(.top, 24)
+            .disabled(!formIsValid)
+            .opacity(formIsValid ? 1.0 : 0.5)
             
             Spacer()
             
@@ -71,6 +88,18 @@ struct RegistrationView: View {
                 Text("Back to Sign In")
             }
         }
+    }
+}
+
+// MARK - AuthenticationFormProtocol
+extension RegistrationView: AuthenticationFormProtocol {
+    var formIsValid: Bool {
+        return !email.isEmpty
+        && email.contains("@")
+        && !password.isEmpty
+        && password.count > 5
+        && !fullname.isEmpty
+        && password == confirmPassword
     }
 }
 
